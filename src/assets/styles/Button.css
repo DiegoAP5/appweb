@@ -1,0 +1,28 @@
+button{
+    border-radius: 10px;
+    border-color: antiquewhite;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color:antiquewhite;
+    margin: 10px 10px;
+}
+
+button[type=success]{
+    background-color: black;
+}
+
+button[type=delete]{
+    background-color: black;
+}
+
+button[type=success]:hover{
+    background-color: rgb(54, 138, 54);
+
+    transition: 1000ms;
+}
+
+button[type=delete]:hover{
+    background-color: red;
+    transition: 1000ms;
+}
